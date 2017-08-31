@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Abel|Titillium+Web');
+
+body{
+	/*font-family: 'Titillium Web', sans-serif;*/
+	font-family: 'Abel', sans-serif;
+	color: black;
+	background-color: #f0ae00;
+	margin-top: 20px;
+	font-size: 25px;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}

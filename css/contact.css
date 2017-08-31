@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Abel|Titillium+Web');
+
+body{
+	background-color: #151515;
+}
+
+.main{
+	/*border-left: 3px solid #ccc;*/
+	height: 100%;
+	text-align: center;
+	background-color: #151515;
+	/*height: 100vh;*/
+}
+
+.sbtn{
+	color: #fff;
+	background-color: #000;
+	margin-top: 40px;
+	border: none;
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	transition: 0.25s;
+	font-size: 25px;
+}
+
+.sbtn:hover{
+	/*box-shadow: 1px 1px 50px 5px #00cc00;*/
+	background-color: #fff;
+	color: #000;
+	border: solid 2px #000;
+	transition: 0.25s;
+}
+
+.sbtn:focus{
+	outline: 0;
+}
+
+.tithead h1{
+	background-image: url("../assets/back.gif");
+	padding: 10px;
+	margin-top: 20px;
+	font-size: 40px;
+	/*font-family: 'Pacifico', cursive;*/
+	font-family: 'Titillium Web', sans-serif;
+	/*font-family: 'Abel', sans-serif;*/
+	color: #f0ae00;
+}
+
+@media screen and (min-width:720px){
+	.tithead h1{
+		border-top: none;
+	}
+	.main{
+		text-align: left;
+	}
+}
+
+/*COMMENT TEST*/
